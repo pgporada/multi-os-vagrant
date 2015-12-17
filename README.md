@@ -1,9 +1,13 @@
+# OS's in use
+* CentOS 7
+* WIndows 7
+
 # Instructions
 * Install Virtualbox
 * Install Virtualbox Guest Additions 
 * Install Vagrant
 * Clone the repository
-* Edit the NODE_COUNT variable in the Vagrantfile to spin up N number of Windows guest vms
+* Edit the LINUX_COUNT and WINDOWS_COUNT variable in the Vagrantfile to spin up N number of guest vms
 *       ```
         vagrant up
         ```
